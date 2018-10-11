@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.github.goxr3plus</groupId>
+	<groupId>com.github.Mshoese</groupId>
 	<artifactId>javafxwebbrowser</artifactId>
 	<version>8.2.0</version>
 	<name>javafxwebbrowser</name>
@@ -19,7 +19,7 @@
 	</properties>
 
 	<build>
-		<finalName>JavaFXWebBrowser-${project.version}</finalName>
+		<finalName>SecAdaptBrowser-${project.version}</finalName>
 		<sourceDirectory>src</sourceDirectory>
 		<resources>
 			<resource>
@@ -70,7 +70,7 @@
 					<archive>
 						<manifest>
 							<addClasspath>true</addClasspath>
-							<mainClass>main.java.com.goxr3plus.javafxwebbrowser.application.Main</mainClass>
+							<mainClass>Main</mainClass>
 							<classpathPrefix>JavaFXWebBrowser_lib/</classpathPrefix>
 						</manifest>
 					</archive>
@@ -164,5 +164,5 @@
 			<version>3.0.1</version> </dependency> -->
 
 	</dependencies>
-	<url>https://github.com/goxr3plus/JavaFX-Web-Browser</url>
+	<url>https://github.com/Mshoese/JavaFx-Smart-Browser</url>
 </project>
